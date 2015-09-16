@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="DudenCacheModel" namespace="TextAnalysis" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="DudenCacheModel" backend="mssql" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="TextAnalysis" default="true">
+      <orm:class name="WordDefinition" use-default-mapping="true" uniqueId="f05a4052-47da-4f86-9f09-f0d249e16da9">
+        <orm:identity>
+          <orm:single-field field-name="_id" />
+        </orm:identity>
+        <orm:field name="_id" property="Id" uniqueId="5d6b8b8d-3496-4170-a2a0-68621b4f819e" type="System.String">
+          <orm:column name="id" sql-type="varchar" nullable="false" length="255" scale="0" primary-key="true" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_wordTypId" property="WordTypId" uniqueId="b7155185-75c4-4e10-966b-44a73656e174" type="System.Int32">
+          <orm:column name="word_typ_id" sql-type="int" nullable="false" length="0" scale="0" converter="OpenAccessRuntime.Data.IntConverter" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_lastUpdated" property="LastUpdated" uniqueId="21b96b4a-18ad-4bd2-bf00-2b7cdc9a2d19" type="System.DateTime">
+          <orm:column name="last_updated" sql-type="datetime" nullable="false" length="0" scale="0" converter="OpenAccessRuntime.Data.MssqlMinDateConverter" ado-type="DateTime" />
+        </orm:field>
+        <orm:field name="_wordFrequencyId" property="WordFrequencyId" uniqueId="494bae2a-1d39-4ebb-87c4-f802375ed050" type="System.Int32">
+          <orm:column name="word_frequency_id" sql-type="int" nullable="false" length="0" scale="0" converter="OpenAccessRuntime.Data.IntConverter" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_wordTyp" property="WordTyp" behavior="readwrite" uniqueId="d2845b95-dad9-4e97-a048-0a25ea5cae99" type="TextAnalysis.WordTyp">
+          <orm:reference uniqueId="59126b7f-3638-42f9-ba7c-1a7961611d78" association-name="WordDefinitionHasWordTyp">
+            <orm:sharedfield name="_wordTypId" target-class="TextAnalysis.WordTyp" target-field="_id" />
+          </orm:reference>
+        </orm:field>
+        <orm:field name="_wordFrequency" property="WordFrequency" behavior="readwrite" uniqueId="e1188c39-9064-46a1-9aab-04f3f3b9188b" type="TextAnalysis.WordFrequency">
+          <orm:reference uniqueId="ec101281-15da-4ad9-a812-9e784ef3e8d1" association-name="WordDefinitionHasWordFrequency">
+            <orm:sharedfield name="_wordFrequencyId" target-class="TextAnalysis.WordFrequency" target-field="_id" />
+          </orm:reference>
+        </orm:field>
+        <orm:field name="_synonymMatches" property="Synonyms" behavior="readwrite" uniqueId="51765c0c-bacd-4ca4-8902-20c62cf4cd44" type="TextAnalysis.SynonymMatch">
+          <orm:collection element-class="TextAnalysis.SynonymMatch" order-by="" uniqueId="9baeeebe-3d89-460b-b121-d395beef3c16">
+            <orm:sharedfield name="_baseDefinitionId" target-class="TextAnalysis.WordDefinition" target-field="_id" />
+          </orm:collection>
+        </orm:field>
+        <orm:field name="_wordMatches" property="WordMatches" behavior="readwrite" uniqueId="05b33a8f-a5e6-40d6-a5c5-2964cc0dffaf" type="TextAnalysis.WordMatch">
+          <orm:collection element-class="TextAnalysis.WordMatch" inverse-field="_wordDefinition" order-by="" uniqueId="f431da0c-8624-4779-b356-c173d9741f50" />
+        </orm:field>
+      </orm:class>
+      <orm:class name="WordMatch" use-default-mapping="true" uniqueId="51a9de7d-6b37-437c-a897-c188d1ccf326">
+        <orm:identity>
+          <orm:single-field field-name="_word" />
+        </orm:identity>
+        <orm:field name="_word" property="Word" uniqueId="5c36be61-0595-4b0d-8726-c992100bf90f" type="System.String">
+          <orm:column name="word" sql-type="varchar" nullable="false" length="255" scale="0" primary-key="true" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_definitionId" property="DefinitionId" uniqueId="9befe1a9-3d97-49da-8f94-7c5374d5c704" type="System.String">
+          <orm:column name="definition_id" sql-type="varchar" nullable="true" length="255" scale="0" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_wordDefinition" property="WordDefinition" behavior="readwrite" uniqueId="aa804fc2-a8dc-430a-9581-f4737656d090" type="TextAnalysis.WordDefinition">
+          <orm:reference uniqueId="f431da0c-8624-4779-b356-c173d9741f50" association-name="WordMatchHasWordDefinition">
+            <orm:sharedfield name="_definitionId" target-class="TextAnalysis.WordDefinition" target-field="_id" />
+          </orm:reference>
+        </orm:field>
+      </orm:class>
+      <orm:class name="SynonymMatch" use-default-mapping="true" uniqueId="813b86bc-16df-4d6f-bd5e-aee4bc1fea9b">
+        <orm:identity>
+          <orm:single-field field-name="_id" />
+        </orm:identity>
+        <orm:field name="_id" property="Id" uniqueId="3aca7cd7-d19f-4609-949e-55a266a429e9" type="System.Int32">
+          <orm:column name="id" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" converter="OpenAccessRuntime.Data.IntConverter" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_baseDefinitionId" property="BaseDefinitionId" uniqueId="620ffd88-74dd-4094-84c0-337ffba98cbd" type="System.String">
+          <orm:column name="base_definition_id" sql-type="varchar" nullable="true" length="255" scale="0" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_synonymId" property="SynonymId" uniqueId="000414fa-7665-4db8-a999-26ceecf90f7e" type="System.String">
+          <orm:column name="synonym_id" sql-type="varchar" nullable="true" length="255" scale="0" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_wordDefinition1" property="Synonym" behavior="readwrite" uniqueId="2f17003b-c596-4276-82f0-6c7a6422321b" type="TextAnalysis.WordDefinition">
+          <orm:reference uniqueId="505d78f1-8086-4c4b-9ac7-a576d3d2c914" association-name="SynonymMatchHasWordDefinition1">
+            <orm:sharedfield name="_synonymId" target-class="TextAnalysis.WordDefinition" target-field="_id" />
+          </orm:reference>
+        </orm:field>
+      </orm:class>
+      <orm:class name="WordTyp" use-default-mapping="true" uniqueId="0494c87d-cff3-4398-b29d-67b719bc5cb4">
+        <orm:identity>
+          <orm:single-field field-name="_id" />
+        </orm:identity>
+        <orm:field name="_id" property="Id" uniqueId="dfdc1506-36a8-4c98-baab-4816b9df2259" type="System.Int32">
+          <orm:column name="id" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" converter="OpenAccessRuntime.Data.IntConverter" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_name" property="Name" uniqueId="07717a5d-3367-4a35-89a9-1281d147e420" type="System.String">
+          <orm:column name="nme" sql-type="varchar" nullable="true" length="255" scale="0" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_wordDefinitions" property="WordDefinitions" behavior="readwrite" uniqueId="c0bd0874-204b-4331-ac9d-91334df8fc3c" type="TextAnalysis.WordDefinition">
+          <orm:collection element-class="TextAnalysis.WordDefinition" inverse-field="_wordTyp" order-by="" uniqueId="59126b7f-3638-42f9-ba7c-1a7961611d78" />
+        </orm:field>
+      </orm:class>
+      <orm:class name="WordFrequency" use-default-mapping="true" uniqueId="7551a55c-15b9-43de-91a6-b293d1c27083">
+        <orm:identity>
+          <orm:single-field field-name="_id" />
+        </orm:identity>
+        <orm:field name="_id" property="Id" uniqueId="6f36a354-6d17-49fa-9174-62d2c677e2e7" type="System.Int32">
+          <orm:column name="id" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" converter="OpenAccessRuntime.Data.IntConverter" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_name" property="Name" uniqueId="773ef7f8-14d6-4d21-ab37-23c67b655af4" type="System.String">
+          <orm:column name="nme" sql-type="varchar" nullable="true" length="255" scale="0" converter="OpenAccessRuntime.Data.VariableLengthAnsiStringConverter" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_wordDefinitions" property="WordDefinitions" behavior="readwrite" uniqueId="293738f9-2cc0-4092-bd2c-f23e467659ea" type="TextAnalysis.WordDefinition">
+          <orm:collection element-class="TextAnalysis.WordDefinition" inverse-field="_wordFrequency" order-by="" uniqueId="ec101281-15da-4ad9-a812-9e784ef3e8d1" />
+        </orm:field>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="" />
+    <orm:relational-naming-settings>
+      <orm:source-strategy>Property</orm:source-strategy>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <AppConfigConnectionPropertyName>Connection</AppConfigConnectionPropertyName>
+    <AppConfigConnectionString>data source=(LocalDB)\v11.0;attachdbfilename=C:\WORK\Projects\TextAnalysis\TextAnalysis\LanguageAnalysis\German\DudenCache.mdf;integrated security=True</AppConfigConnectionString>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+      <NavigationPropertyRules />
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <ImplementINotifyPropertyChanging>true</ImplementINotifyPropertyChanging>
+      <ImplementINotifyPropertyChanged>true</ImplementINotifyPropertyChanged>
+      <ImplementIDataErrorInfo>true</ImplementIDataErrorInfo>
+      <GenerateDataAnnotationAttributes>true</GenerateDataAnnotationAttributes>
+      <ImplementISerializable>true</ImplementISerializable>
+      <MappingDefinitionType>Xml</MappingDefinitionType>
+      <OutputMode>SubNamespaces</OutputMode>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings>
+      <ExecuteScript>true</ExecuteScript>
+      <DeploymentProject>TextAnalysis</DeploymentProject>
+      <DeploymentDirectory>LanguageAnalysis\German</DeploymentDirectory>
+      <UpdateDatabaseOperation>Migrate</UpdateDatabaseOperation>
+    </SchemaUpdateSettings>
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>MsSql</Backend>
+        <ProviderName>System.Data.SqlClient</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="f05a4052-47da-4f86-9f09-f0d249e16da9" name="WordDefinition" namespace="TextAnalysis" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="5d6b8b8d-3496-4170-a2a0-68621b4f819e" name="Id" label="Id : String" identity="true" fieldName="_id" />
+      <Property Id="b7155185-75c4-4e10-966b-44a73656e174" name="WordTypId" type="System.Int32" label="WordTypId : System.Int32" fieldName="_wordTypId" />
+      <Property Id="21b96b4a-18ad-4bd2-bf00-2b7cdc9a2d19" name="LastUpdated" type="DateTime" label="LastUpdated : DateTime" fieldName="_lastUpdated" />
+      <Property Id="494bae2a-1d39-4ebb-87c4-f802375ed050" name="WordFrequencyId" type="System.Int32" label="WordFrequencyId : System.Int32" fieldName="_wordFrequencyId" />
+      <AssociationTargets>
+        <Association Id="59126b7f-3638-42f9-ba7c-1a7961611d78" SourceMultiplicity="ZeroOne" name="WordDefinitionHasWordTyp">
+          <DomainClassMoniker name="/DudenCacheModel/WordTyp" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="77c0e268-ffe1-4d64-8a78-a6fa92632d28">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordTyp/WordDefinitions" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="ef9622a0-05f6-437b-b241-8b385d8c73d1">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordDefinition/WordTyp" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+        <Association Id="ec101281-15da-4ad9-a812-9e784ef3e8d1" SourceMultiplicity="ZeroOne" name="WordDefinitionHasWordFrequency">
+          <DomainClassMoniker name="/DudenCacheModel/WordFrequency" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="5c3f449f-ad8f-4999-9f97-3bccfde344ad">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordFrequency/WordDefinitions" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="69313b5a-1ce4-4dd2-b55d-fe61c0e14739">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordDefinition/WordFrequency" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+      </AssociationTargets>
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="6fdd8b68-1e4c-4eb8-ac1c-47fbf8e1b97e">
+          <NavigationalProperty Id="51765c0c-bacd-4ca4-8902-20c62cf4cd44" name="Synonyms" type="IList&lt;SynonymMatch&gt;" label="Synonyms : IList&lt;SynonymMatch&gt;" nullable="true" kind="Persistent" fieldName="_synonymMatches" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+        <classHasNavigationalProperties Id="fef313f8-ef51-4270-b2d8-9b6da61fe381">
+          <NavigationalProperty Id="05b33a8f-a5e6-40d6-a5c5-2964cc0dffaf" name="WordMatches" type="IList&lt;WordMatch&gt;" label="WordMatches : IList&lt;WordMatch&gt;" nullable="true" kind="Persistent" fieldName="_wordMatches" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+        <classHasNavigationalProperties Id="8734ceb5-e9f8-4eff-b16f-7de588f4d522">
+          <NavigationalProperty Id="d2845b95-dad9-4e97-a048-0a25ea5cae99" name="WordTyp" type="WordTyp" label="WordTyp : WordTyp" nullable="true" kind="Persistent" fieldName="_wordTyp" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+        <classHasNavigationalProperties Id="61e02eff-be1e-4865-8585-a76bba5a841a">
+          <NavigationalProperty Id="e1188c39-9064-46a1-9aab-04f3f3b9188b" name="WordFrequency" type="WordFrequency" label="WordFrequency : WordFrequency" nullable="true" kind="Persistent" fieldName="_wordFrequency" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="51a9de7d-6b37-437c-a897-c188d1ccf326" name="WordMatch" namespace="TextAnalysis" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="5c36be61-0595-4b0d-8726-c992100bf90f" name="Word" label="Word : String" identity="true" fieldName="_word" />
+      <Property Id="9befe1a9-3d97-49da-8f94-7c5374d5c704" name="DefinitionId" label="DefinitionId : String" fieldName="_definitionId" />
+      <AssociationTargets>
+        <Association Id="f431da0c-8624-4779-b356-c173d9741f50" SourceMultiplicity="ZeroOne" name="WordMatchHasWordDefinition">
+          <DomainClassMoniker name="/DudenCacheModel/WordDefinition" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="05732c9f-7e10-4feb-b1e6-2d0c3464ea26">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordDefinition/WordMatches" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="8c04533c-6ef0-4c27-a854-8622510a66f9">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordMatch/WordDefinition" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+      </AssociationTargets>
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="29aea7f5-8d15-4d97-8908-b61df9810a7c">
+          <NavigationalProperty Id="aa804fc2-a8dc-430a-9581-f4737656d090" name="WordDefinition" type="WordDefinition" label="WordDefinition : WordDefinition" nullable="true" kind="Persistent" fieldName="_wordDefinition" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="813b86bc-16df-4d6f-bd5e-aee4bc1fea9b" name="SynonymMatch" namespace="TextAnalysis" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="3aca7cd7-d19f-4609-949e-55a266a429e9" name="Id" type="System.Int32" label="Id : System.Int32" identity="true" fieldName="_id" />
+      <Property Id="620ffd88-74dd-4094-84c0-337ffba98cbd" name="BaseDefinitionId" label="BaseDefinitionId : String" fieldName="_baseDefinitionId" />
+      <Property Id="000414fa-7665-4db8-a999-26ceecf90f7e" name="SynonymId" label="SynonymId : String" fieldName="_synonymId" />
+      <AssociationTargets>
+        <Association Id="9baeeebe-3d89-460b-b121-d395beef3c16" SourceMultiplicity="ZeroOne" name="SynonymMatchHasWordDefinition">
+          <DomainClassMoniker name="/DudenCacheModel/WordDefinition" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="89a3635c-c4ba-48d3-a629-e876f7e060e7">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/WordDefinition/Synonyms" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+        </Association>
+        <Association Id="505d78f1-8086-4c4b-9ac7-a576d3d2c914" SourceMultiplicity="ZeroOne" name="SynonymMatchHasWordDefinition1">
+          <DomainClassMoniker name="/DudenCacheModel/WordDefinition" />
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="6cb14298-454a-4f26-93ce-dec8e02f1954">
+              <NavigationalPropertyMoniker name="/DudenCacheModel/SynonymMatch/Synonym" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+      </AssociationTargets>
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="b5d0dddc-cf33-4bad-8df1-51e53d4e4982">
+          <NavigationalProperty Id="2f17003b-c596-4276-82f0-6c7a6422321b" name="Synonym" type="WordDefinition" label="Synonym : WordDefinition" nullable="true" kind="Persistent" fieldName="_wordDefinition1" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="0494c87d-cff3-4398-b29d-67b719bc5cb4" name="WordTyp" namespace="TextAnalysis" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="dfdc1506-36a8-4c98-baab-4816b9df2259" name="Id" type="System.Int32" label="Id : System.Int32" identity="true" fieldName="_id" />
+      <Property Id="07717a5d-3367-4a35-89a9-1281d147e420" name="Name" label="Name : String" fieldName="_name" />
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="ac22b33c-2289-4f79-86ec-d9ac2da77634">
+          <NavigationalProperty Id="c0bd0874-204b-4331-ac9d-91334df8fc3c" name="WordDefinitions" type="IList&lt;WordDefinition&gt;" label="WordDefinitions : IList&lt;WordDefinition&gt;" nullable="true" kind="Persistent" fieldName="_wordDefinitions" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="7551a55c-15b9-43de-91a6-b293d1c27083" name="WordFrequency" namespace="TextAnalysis" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="6f36a354-6d17-49fa-9174-62d2c677e2e7" name="Id" type="System.Int32" label="Id : System.Int32" identity="true" fieldName="_id" />
+      <Property Id="773ef7f8-14d6-4d21-ab37-23c67b655af4" name="Name" label="Name : String" fieldName="_name" />
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="f46ab582-daa9-4448-a67d-fde9ca01fc7d">
+          <NavigationalProperty Id="293738f9-2cc0-4092-bd2c-f23e467659ea" name="WordDefinitions" type="IList&lt;WordDefinition&gt;" label="WordDefinitions : IList&lt;WordDefinition&gt;" nullable="true" kind="Persistent" fieldName="_wordDefinitions" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="6d6432f8-1b9d-4ea7-927f-04cfeba92875">
+      <domainContainer name="DudenCacheModel" namespace="TextAnalysis" showPropertiesCompartment="true">
+        <entitySetProperty name="WordDefinitions" namespace="TextAnalysis" type="WordDefinition" label="WordDefinitions : IQueryable&lt;TextAnalysis.WordDefinition&gt;" />
+        <entitySetProperty name="WordMatches" namespace="TextAnalysis" type="WordMatch" label="WordMatches : IQueryable&lt;TextAnalysis.WordMatch&gt;" />
+        <entitySetProperty name="SynonymMatches" namespace="TextAnalysis" type="SynonymMatch" label="SynonymMatches : IQueryable&lt;TextAnalysis.SynonymMatch&gt;" />
+        <entitySetProperty name="WordTyps" namespace="TextAnalysis" type="WordTyp" label="WordTyps : IQueryable&lt;TextAnalysis.WordTyp&gt;" />
+        <entitySetProperty name="WordFrequencies" namespace="TextAnalysis" type="WordFrequency" label="WordFrequencies : IQueryable&lt;TextAnalysis.WordFrequency&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>

@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestData>
+  <AnalyzerTestData>
+    <Text>Mein erster Test</Text>
+    <WordCount>3</WordCount>
+    <WordCloudWord>erster</WordCloudWord>
+    <WordCloudCount>1</WordCloudCount>
+  </AnalyzerTestData>
+  <AnalyzerTestData>
+    <Text>Mein zweiter Test</Text>
+    <WordCount>3</WordCount>
+    <WordCloudWord>zweiter</WordCloudWord>
+    <WordCloudCount>1</WordCloudCount>
+  </AnalyzerTestData>
+  <AnalyzerTestData>
+    <Text><![CDATA[Ein anderer Text mit etwas gehobenen anforderungen an den Wort Zähler.
+    Auch der absatz sollte richtig erkannt werden.]]></Text>
+    <WordCount>18</WordCount>
+    <WordCloudWord>text</WordCloudWord>
+    <WordCloudCount>1</WordCloudCount>
+  </AnalyzerTestData>
+  <AnalyzerTestData>
+    <Text>
+      <![CDATA[Gluten
+
+Keywords
+Gluten
+Glutenfrei
+Weizen
+
+Content
+
+    ]]></Text>
+    <WordCount>6</WordCount>
+    <WordCloudWord>gluten</WordCloudWord>
+    <WordCloudCount>2</WordCloudCount>
+  </AnalyzerTestData>
+  <AnalyzerTestData>
+    <Text>
+      <![CDATA[Was ist Gluten?
+Der Begriff Gluten stammt von dem lateinischen 12654 Wort glūten ab und bedeutet Leim. Gluten ist nicht ein einzelner Stoff sondern ein Stoffgemisch welches in den Samen vieler Getreide vorkommt. Gluten ist auch dafür verantwortlich das durch Zugabe von Wasser zu Mehl eine gummiartige und elastische Masse, der Teig, entsteht.§§§
+
+]]>
+    </Text>
+    <WordCount>53</WordCount>
+    <WordCloudWord>gluten</WordCloudWord>
+    <WordCloudCount>4</WordCloudCount>
+  </AnalyzerTestData>
+  <AnalyzerTestData>
+    <Text>
+      <![CDATA[
+<!DOCTYPE html>
+<!--[if !IE]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js">
+<!--<![endif]-->
+<!--[if IE 9]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js ie9">
+<![endif]-->
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js ie8">
+<![endif]-->
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=980px">
+<title>Tropico 5 - Design your tropical island!</title>
+<script type="text/javascript">
+      </script>
+      <link rel="profile" href="http://gmpg.org/xfn/11"/>
+      <link rel="pingback" href="http://www.citybuilder.info/xmlrpc.php"/>
+      <link rel="alternate" type="application/rss+xml" title="citybuilder.info &raquo; Feed" href="http://www.citybuilder.info/feed/"/>
+      <link rel="alternate" type="application/rss+xml" title="citybuilder.info &raquo; Comments Feed" href="http://www.citybuilder.info/comments/feed/"/>
+      <link rel="alternate" type="application/rss+xml" title="citybuilder.info &raquo; Tropico 5 &#8211; Design your tropical island! Comments Feed" href="http://www.citybuilder.info/review/tropico-5/feed/"/>
+      <meta name="description" content="This game is the 5th part of the series. In contrast to the first two parts of the series the parts 3 to 5 are published by Kalypso Media Digital. So lets see what's new."/>
+      <meta name="keywords" content="city builder,economic simulation"/>
+      <link rel="canonical" href="http://www.citybuilder.info/review/tropico-5/"/>
+      <meta name="copyright" content="citybuilder.info"/>
+      <link rel="author" href="https://plus.google.com/115337067747533275367/posts"/>
+      <meta name="language" content="en-US"/>
+      <meta name="DC.Publisher" content="citybuilder.info"/>
+      <meta name="DC.Title" content="Tropico 5 - Design your tropical island!"/>
+      <meta name="DC.Description" content="This game is the 5th part of the series. In contrast to the first two parts of the series the parts 3 to 5 are published by Kalypso Media Digital. So lets see what's new."/>
+      <meta name="DC.Date" content="2014-08-31"/>
+      <meta name="DC.date.issued" content="2014-08-31"/>
+      <meta property="og:url" content="http://www.citybuilder.info/review/tropico-5/"/>
+      <meta property="og:image" content="http://www.citybuilder.info/wp-content/uploads/2014/08/010-1024x576.jpg"/>
+      <meta property="og:image:width" content="500"/>
+      <meta property="og:title" content="Tropico 5 - Design your tropical island!"/>
+      <meta property="og:description" content="This game is the 5th part of the series. In contrast to the first two parts of the series the parts 3 to 5 are published by Kalypso Media Digital. So lets see what's new."/>
+      <meta property="og:site_name" content="citybuilder.info"/>
+      <meta property="og:type" content="article"/>
+      <meta property="article:published_time" content="2014-08-31T20:26:06+00:00"/>
+      <meta property="article:tag" content="city builder"/>
+      <meta property="article:tag" content="economic simulation"/>
+      <meta property="article:tag" content="tropico 5"/>
+      <meta name="twitter:card" content="summary"/>
+      <meta name="twitter:title" content="Tropico 5 - Design your tropical island!">
+        <meta name="twitter:image:src" content="http://www.citybuilder.info/wp-content/uploads/2014/08/010-1024x576.jpg">
+          <meta name="twitter:domain" content="citybuilder.info">
+            <style id='sq_frontend.css-css' media='all'>.sq_quote_content,.sq_blog_content,.sq_wiki_content,.sq_local_content{position:relative;clear:both;background:#fff;font-size:14px;color:#333;max-width:500px;margin:5px auto 5px auto;padding:13px;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd}.sq_quote_content p{line-height:0px!important;margin:0px!important;padding:0px!important}.sq_author_avatar{display:block;float:left;width:48px;height:48px;padding:1px;margin:0;border:1px solid #ddd}.sq_quote_text{margin-left:62px;line-height:1.5em;padding-left:21px;background:url(/wp-content/plugins/squirrly-seo/themes/default/img/xavatar-margin.png.pagespeed.ic.1vTcY_a-Gf.png) left top no-repeat;min-height:52px;font-family:"Georgia",serif;font-size:16px}.sq_blog_content p{line-height:0px!important;margin:0px!important;padding:0px!important}a.sq_news{display:block;font-family:"Helvetica",sans-serif;font-weight:700;color:#0074b7;font-size:14px;line-height:1.4em;margin-bottom:5px;text-decoration:none}.sq_news_text{font-size:12px;color:#333}.sq_wiki_content p{line-height:0px!important;margin:0px!important;padding:0px!important}a.sq_wiki{display:block;font-family:"Helvetica",sans-serif;font-weight:700;color:#0074b7;font-size:14px;line-height:1.4em;margin-bottom:5px;text-decoration:none}.sq_wiki_text{font-size:12px;color:#333}.sq_local_content p{line-height:0px!important;margin:0px!important;padding:0px!important}a.sq_local{display:block;font-family:"Helvetica",sans-serif;font-weight:700;color:#0074b7;font-size:14px;line-height:1.4em;margin-bottom:5px;text-decoration:none}.sq_local_text{font-size:12px;color:#333}</style>
+            <link rel='stylesheet' id='validate-engine-css-css' href='http://www.citybuilder.info/wp-content/plugins/wysija-newsletters/css/A.validationEngine.jquery.css.pagespeed.cf.NDfTYte682.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='gdsr_style_main-css' href='http://www.citybuilder.info/wp-content/plugins/gd-star-rating/css/A.gdsr.css.php,qt=1409476601,as=a05i05m20k20c05r05,P23121620243046,P23121620243240,P23s1pchristmas,P23s1pcrystal,P23s1pdarkness,P23s1poxygen,P23s1goxygen_gif,P23s1pplain,P23s1ppumpkin,P23s1psoft,P23s1pstarrating,P23s1pstarscape,P23t1pclassical,P23t1pstarrating,P23t1gstarrating_gif,P23lsgflower,ao=off,aver=1.9.22.pagespeed.cf.kbFbYFynyz.css' type='text/css' media='all'/>
+            <style id='gdsr_style_xtra-css' media='all'>.blockleft{float:left;padding:10px}.blockright{float:right;padding:10px}.tableblue{border:1px dashed #87ceeb}.tableblue tr.mtrow{background-color:#f5fffa}.tableblue tr.mtrow.alternate{background-color:#f0f8ff}.textblue{color:navy}.textblue strong{color:#8b0000}.textblue.voted{color:#1e90ff}.textblue.voted strong{color:#ff4500}.buttonblue.gdinactive{border-color:#708090;background-color:#e6e6fa}.buttonblue.gdactive{border-color:#00008b;background-color:#add8e6}.buttonblue.gdinactive a{color:gray}.buttonblue.gdactive a{color:#0000cd}.tablered{border:1px dashed #ffd700}.tablered tr.mtrow{background-color:#ffffe0}.tablered tr.mtrow.alternate{background-color:#fffacd}.textred{color:maroon}.textred strong{color:#000}.textred.voted{color:#ff6347}.textred.voted strong{color:#dc143c}.buttonred.gdinactive{border-color:#708090;background-color:#e6e6fa}.buttonred.gdactive{border-color:maroon;background-color:#ffd700}.buttonred.gdinactive a{color:gray}.buttonred.gdactive a{color:red}.tablegreen{border:1px dashed #228b22}.tablegreen tr.mtrow{background-color:#fffff0}.tablegreen tr.mtrow.alternate{background-color:#f0fff0}.textgreen{color:#006400}.textgreen strong{color:#191970}.textgreen.voted{color:#3cb371}.textgreen.voted strong{color:#a52a2a}.buttongreen.gdinactive{border-color:#708090;background-color:#90ee90}.buttongreen.gdactive{border-color:#32cd32;background-color:#228b22}.buttongreen.gdinactive a{color:gray}.buttongreen.gdactive a{color:#00fa9a}</style>
+            <link rel='stylesheet' id='open-sans-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.1' type='text/css' media='all'/>
+            <link rel='stylesheet' id='dashicons-css' href='http://www.citybuilder.info/wp-includes/css/dashicons.min.css.pagespeed.ce.UZxcrXP6ne.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='admin-bar-css' href='http://www.citybuilder.info/wp-includes/css/admin-bar.min.css.pagespeed.ce.ijxCXNyHcG.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='bbp-default-css' href='http://www.citybuilder.info/wp-content/plugins/bbpress/templates/default/css/A.bbpress.css.pagespeed.cf.UDybPq-xWG.css' type='text/css' media='screen'/>
+            <style id='bp-admin-bar-css' media='all'>#wpadminbar .quicklinks li#wp-admin-bar-group-admin-with-avatar>a img,#wpadminbar .quicklinks li#wp-admin-bar-user-admin-with-avatar>a img{width:16px;height:16px;display:inline;border:1px solid #999;vertical-align:middle;margin:-2px 10px 0 -5px;padding:0;background:#eee;float:none}#wpadminbar .quicklinks li#wp-admin-bar-group-admin-with-avatar ul,#wpadminbar .quicklinks li#wp-admin-bar-group-admin-with-avatar ul ul{left:0}#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications,#wpadminbar .quicklinks li#wp-admin-bar-my-account a span.count,#wpadminbar .quicklinks li#wp-admin-bar-my-account-with-avatar a span.count{background:#21759b;color:#fff;text-shadow:none;display:inline;padding:2px 5px;font-size:10px;font-weight:700;-moz-border-radius:10px;-khtml-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications{background:#ddd;color:#333;margin:0}#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications.alert{background-color:#1fb3dd;color:#fff}#wpadminbar .quicklinks li#wp-admin-bar-bp-notifications>a{padding:0 .5em}#wp-admin-bar-user-info img.avatar{height:64px;width:64px}</style>
+            <style id='bp-mentions-css-css' media='all'>.atwho-view{background:#fff;border-radius:2px;border:1px solid #ccc;box-shadow:0 0 5px rgba(204,204,204,.25),0 0 1px #FFF;color:#d84800;display:none;font-family:sans-serif;margin-top:18px;position:absolute;top:0;z-index:1000;left:0}.atwho-view ul{list-style:none;margin:auto;padding:0}.atwho-view ul li{border-bottom:1px solid #efefef;box-sizing:content-box;cursor:pointer;display:block;font-size:14px;height:20px;line-height:20px;margin:0;overflow:hidden;padding:5px 10px}.atwho-view img{border-radius:2px;float:right;height:20px;margin-top:0;width:20px}.atwho-view strong{background:#efefef;font:700}.atwho-view .username strong{color:#d54e21}.atwho-view small{color:#aaa;float:right;font-size:smaller;font-weight:400;margin:0 10px 0 40px}.atwho-view .cur{background:rgba(239,239,239,.5)}@media (max-width:900px){.atwho-view img{float:left;margin:0 10px 0 0}.atwho-view small{display:none}}@media (max-width:400px){.atwho-view ul li{font-size:16px;line-height:23px;padding:13px}.atwho-view ul li img{height:30px;margin-top:-5px;width:30px}}</style>
+            <style id='amazon-auto-links-33a871d1f2dea33cfd76dee93c15990d-css' media='all'>.amazon-products-container{width:100%}.amazon-products-container a{text-decoration:none}.amazon-products-container .amazon-product-container{width:100%;display:table;clear:both;margin-bottom:20px}.amazon-products-container .amazon-product-title{}.amazon-products-container .amazon-product-thumbnail-container{width:100%}.amazon-products-container .amazon-product-thumbnail{margin:20px auto;text-align:center}.amazon-products-container .amazon-product-thumbnail img{max-width:100%}.amazon-products-container .amazon-auto-links-credit{font-size:smaller}</style>
+            <style id='amazon-auto-links-68e9ba654b752f0f97c4d9f89ec14891-css' media='all'>.amazon-products-container-search{width:100%}.amazon-products-container-search a{text-decoration:none}.amazon-products-container-search .amazon-product-container{width:100%;display:table;clear:both;margin-bottom:20px}.amazon-products-container-search .amazon-product-title{}.amazon-products-container-search .amazon-product-thumbnail-container{width:100%}.amazon-products-container-search .amazon-product-thumbnail{margin:20px auto;text-align:center}.amazon-products-container-search .amazon-product-thumbnail img{max-width:100%}.amazon-products-container-search .amazon-auto-links-credit{font-size:smaller}.amazon-products-container-search .amazon-product-author,.amazon-products-container-search .amazon-product-price,.amazon-products-container-search .amazon-product-discounted-price,.amazon-products-container-search .amazon-product-lowest-new-price,.amazon-products-container-search .amazon-product-lowest-used-price{font-size:.92em}</style>
+            <style id='gp-reset-css' media='all'>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}input[type="text"],input[type="password"],input[type="button"],input[type="submit"],input[type="reset"],textarea,button{-webkit-appearance:none}</style>
+            <style id='gp-style-css' media='all'>@import url(/wp-content/themes/reviewit/style.css);</style>
+            <link rel='stylesheet' id='gp-buddypress-css' href='http://www.citybuilder.info/wp-content/themes/reviewit/lib/css/A.bp.css.pagespeed.cf.T-Inp_Qr-u.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='gp-prettyphoto-css' href='http://www.citybuilder.info/wp-content/themes/reviewit/lib/scripts/prettyPhoto/css/A.prettyPhoto.css.pagespeed.cf.2MGbamHuZK.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='gp-style-skin-css' href='http://www.citybuilder.info/wp-content/themes/reviewit/A.style-light.css.pagespeed.cf.SkVTmgcv8k.css' type='text/css' media='all'/>
+            <style media="print">#wpadminbar{display:none}</style>
+            <style media="screen">html{margin-top:32px!important}* html body{margin-top:32px!important}@media screen and (max-width:782px ){html{margin-top:46px!important}* html body{margin-top:46px!important}}</style>
+            <style>#gallery-1{margin:auto}#gallery-1 .gallery-item{float:left;margin-top:10px;text-align:center;width:33%}#gallery-1 img{border:2px solid #cfcfcf}#gallery-1 .gallery-caption{margin-left:0}</style>
+            <style>#gallery-2{margin:auto}#gallery-2 .gallery-item{float:left;margin-top:10px;text-align:center;width:33%}#gallery-2 img{border:2px solid #cfcfcf}#gallery-2 .gallery-caption{margin-left:0}</style>
+            <script type="text/rocketscript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');__gaTracker('create','UA-54333187-1','auto',{'allowAnchor':true,'allowLinker':true});__gaTracker('set','forceSSL',true);__gaTracker('require','displayfeatures');__gaTracker('send','pageview');</script>
+            <script data-rocketsrc="http://www.citybuilder.info/wp-includes,_js,_jquery,_jquery.js,Mjm.z9hb-Gxqf6.js+wp-includes,_js,_jquery,_jquery-migrate.min.js,Mjm.mhpNjdU8Wl.js+wp-content,_plugins,_gd-star-rating,_js,_gdsr.js,Mjm.GO9g6y-jfE.js.pagespeed.jc.jTApFGR2i1.js" type="text/rocketscript"></script>
+            <script type="text/rocketscript">eval(mod_pagespeed_TQBT65KMMH);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_Ea9MVHhtYT);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_YAElxNd2Jj);</script>
+            <script type="text/rocketscript">var BP_Confirm={"are_you_sure":"Are you sure?"};</script>
+            <script type="text/rocketscript">jQuery(document).ready(function(){jQuery("a.confirm").click(function(){return confirm(BP_Confirm.are_you_sure)?!0:!1})});</script>
+            <script data-rocketsrc='http://www.citybuilder.info/wp-content/plugins/buddypress/bp-core/js/jquery.caret.min.js.pagespeed.jm.dH-ddXxs5x.js' type="text/rocketscript"></script>
+            <script data-rocketsrc="http://www.citybuilder.info/wp-content/plugins/buddypress/bp-core/js,_jquery.atwho.min.js,Mjm.D-FSK7q6hi.js+js,_widget-members.min.js,Mjm.eFosqfURtW.js+js,_jquery-query.min.js,Mjm.mBDBfOztib.js+js,_jquery-cookie.min.js,Mjm.bpPmHjYQr4.js+deprecated,_js,_jquery-scroll-to.min.js,Mjm.XVnBmbdxXm.js.pagespeed.jc.T2cnINO1Du.js" type="text/rocketscript"></script>
+            <script type="text/rocketscript">eval(mod_pagespeed_XKjh3Kzj7o);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_fR730QsCjX);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_cru6y4YJWr);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_OYMydgUVjZ);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_u6AjBxoKuW);</script>
+            <script type="text/rocketscript">var BP_DTheme={"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all %d comments","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View"};</script>
+            <script data-rocketsrc="http://www.citybuilder.info/wp-content/plugins,_buddypress,_bp-templates,_bp-legacy,_js,_buddypress.min.js,Mjm.2w-mERbtqw.js+themes,_reviewit,_lib,_scripts,_modernizr.js,Mjm.Yq80J6k3xh.js+themes,_reviewit,_lib,_scripts,_mediaplayer,_jwplayer.js,Mjm.2l0pPigtfz.js+themes,_reviewit,_lib,_scripts,_cufon-yui.js,Mjm.JU1Ajqs9kC.js.pagespeed.jc.R7e0WBiFGx.js" type="text/rocketscript"></script>
+            <script type="text/rocketscript">eval(mod_pagespeed_7p$MdPgYYF);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed__u4D3BvgyS);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_JxcmdnuWP3);</script>
+            <script type="text/rocketscript">eval(mod_pagespeed_z1c74eE4Cc);</script>
+            <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.citybuilder.info/xmlrpc.php?rsd"/>
+            <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.citybuilder.info/wp-includes/wlwmanifest.xml"/>
+            <meta name="generator" content="WordPress 4.1"/>
+            <link rel='shortlink' href='http://www.citybuilder.info/?p=81'/>
+            <script type="text/rocketscript">var ajaxurl='http://www.citybuilder.info/wp-admin/admin-ajax.php';</script>
+            <script type="text/rocketscript">var gdsr_cnst_nonce="b6c27ee349";var gdsr_cnst_ajax="http://www.citybuilder.info/wp-content/plugins/gd-star-rating/ajax.php";var gdsr_cnst_button=1;var gdsr_cnst_cache=0;</script>
+            <!--[if IE]><style type="text/css">.ratemulti .starsbar .gdcurrent { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70); }</style><![endif]-->
+            <!--[if lte IE 9]>
+<style>
+#header-top, .nivo-controlNav a, #review-panel-left, #review-panel-left .ratingbutton, #review-panel-right, .layout-3 #review-links, #content .jqTransformSelectWrapper ul, .post-button, #footer, #sidebar .widget, #sidebar .widget h3, .review-box, .comment-body, .wp-pagenavi span, .wp-pagenavi.cat-navi a, .wp-pagenavi.comment-navi a, .wp-pagenavi.post-navi a span, .wp-pagenavi .current, .wp-pagenavi.cat-navi a:hover, .wp-pagenavi.comment-navi a:hover, .wp-pagenavi .page:hover, .wp-pagenavi.post-navi span, .wp-pagenavi.post-navi a span:hover, .bp-wrapper #content-wrapper div.item-list-tabs ul li.selected, .bp-wrapper #content-wrapper div.item-list-tabs ul li a span, .bp-wrapper #content-wrapper .activity-content .activity-meta a, .bp-wrapper #content-wrapper .activity-content .date, .bp-wrapper #content-wrapper .acomment-options a, .bp-wrapper #content-wrapper .activity-meta a span, .bp-wrapper #content-wrapper form#whats-new-form #whats-new-textarea, .bp-wrapper #content-wrapper div.activity-comments form .ac-textarea, .bp-wrapper #content-wrapper div.activity-comments form .ac-textarea, .bp-wrapper #content-wrapper #message-thread .envelope-info, .bp-wrapper #content-wrapper .forum-list-container {
+	behavior: url("http://www.citybuilder.info/wp-content/themes/reviewit/lib/scripts/pie/PIE.php");
+}
+</style>
+<![endif]-->
+            <script type="text/rocketscript">var rootFolder="http://www.citybuilder.info/wp-content/themes/reviewit";var emptySearchText="Please enter something in the search box!";</script>
+            </head>
+            <body class="single single-review postid-81 logged-in admin-bar no-customize-support sb-right skin-light no-js">
+              <div id="page-wrapper">
+                <div id="login">
+                  superreeen <span class="login-divider">|</span>
+                  <a href="http://www.citybuilder.info/members/superreeen/">Profile</a> <span class="login-divider">|</span>
+                  <a href="http://www.citybuilder.info/wp-login.php?action=logout&amp;redirect_to=%2Freview%2Ftropico-5%2F&amp;_wpnonce=3c8a3e44d0" class="logout-link">Logout</a>
+                </div>
+                <div class="clear"></div>
+                <div id="header-top">
+                  <div id="logo" style="">
+                    <span class="logo-details">citybuilder.info | Tropico 5 &#8211; Design your tropical island!</span>
+                    <a href="http://www.citybuilder.info" title="citybuilder.info">
+                      <img src="http://www.citybuilder.info/wp-content/uploads/2014/08/xlogo.png.pagespeed.ic.EHhOPCbN0X.png" alt="citybuilder.info" pagespeed_url_hash="4045292728">
+                    </a>
+                  </div>
+                  <div id="nav">
+                    <span id="nav-left"></span>
+                    <ul id="menu-header" class="menu">
+                      <li id="menu-item-24" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24">
+                        <a href="http://www.citybuilder.info/" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/', 'Home');">Home</a>
+                      </li>
+                      <li id="menu-item-25" class="reviews menu-item menu-item-type-custom menu-item-object-custom menu-item-25">
+                        <a href="http://www.citybuilder.info/reviews" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/reviews', 'Reviews');">Reviews</a>
+                      </li>
+                      <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-77">
+                        <a href="http://www.citybuilder.info/forums/forum/citybuilder-info-forum/" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/forums/forum/citybuilder-info-forum/', 'Forum');">Forum</a>
+                      </li>
+                      <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
+                        <a href="http://www.citybuilder.info/blog-page/" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/blog-page/', 'Blog');">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <form id="searchform" action="http://www.citybuilder.info/">
+                    <input type="text" name="s" id="searchbar" value="search..." onblur="if (this.value == '') {this.value = 'search...';}" onfocus="if (this.value == 'search...') {this.value = '';}"/>
+                    <input type="submit" id="searchsubmit" value=""/>
+                  </form>
+                </div>
+                <div id="header-bottom">
+                  <div id="display-options">
+                    &nbsp;
+                  </div>
+                  <div id="breadcrumbs">
+                    <a href="http://www.citybuilder.info">Home</a> / <a href="http://www.citybuilder.info/reviews">Reviews</a> / Tropico 5 &#8211; Design your tropical island!
+                  </div>
+                  <div id="social-icons">
+                    <a href="http://www.citybuilder.info/feed/" rel="nofollow" target="_blank">
+                      <img src="http://www.citybuilder.info/wp-content/themes/reviewit/lib/images/social_rss.png" alt="RSS Feed" pagespeed_url_hash="1171793433"/>
+                    </a>
+                  </div>
+                </div>
+                <div id="content-wrapper">
+                  <div id="content">
+                    <div id="review-container">
+                      <div id="review-panel-left" style="width: 180px;">
+                        <img src="http://www.citybuilder.info/wp-content/uploads/2014/08/180x101x010-180x101.jpg.pagespeed.ic.A5zbR_MggM.jpg" width="180" height="101" alt="Tropico 5 Graphics Detail Example" pagespeed_url_hash="1954067178"/>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/001.jpg" id="more-images-link" rel="prettyPhoto[large]">More Images</a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/002.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/003.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/004.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/005.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/006.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/007.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/008.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/009.jpg" id="more-images-link" rel="prettyPhoto[large]" style="display: none"></a>
+                        <div class="site-rating">
+                          <span>Site Rating:</span>
+                          <div id="gdsr_mureview_block_81_1" class="ratingmulti gdsr-review-block">
+                            <table class="gdmultitable" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr class="mtrow row-even">
+                                  <td>Graphics</td>
+                                  <td class="mtstars">
+                                    <div style="text-align:left;padding:0;margin:0;background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png);height:20px;width:100px">
+                                      <div style="background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png) bottom left;padding:0;margin:0;height:20px;width:80px"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="mtrow row-odd">
+                                  <td>Game Play</td>
+                                  <td class="mtstars">
+                                    <div style="text-align:left;padding:0;margin:0;background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png);height:20px;width:100px">
+                                      <div style="background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png) bottom left;padding:0;margin:0;height:20px;width:80px"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="mtrow row-even">
+                                  <td>Game Depth</td>
+                                  <td class="mtstars">
+                                    <div style="text-align:left;padding:0;margin:0;background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png);height:20px;width:100px">
+                                      <div style="background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png) bottom left;padding:0;margin:0;height:20px;width:60px"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div style="text-align:left;padding:0;margin:0;background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png);height:20px;width:100px">
+                            <div style="background:url(http://www.citybuilder.info/wp-content/plugins/gd-star-rating/stars/oxygen/xstars20.png.pagespeed.ic.Knrlk3-nYr.png) bottom left;padding:0;margin:0;height:20px;width:74px"></div>
+                          </div>
+                        </div>
+                        <div class="sc-divider"></div>
+                        <div class="user-rating">
+                          <span>User Rating:</span>
+                          <div id="gdsr_mur_block_81_1" class="ratingmulti ">
+                            <div style="display: none">UA:D [1.9.22_1171]</div>
+                            <table class="gdmultitable" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr class="mtrow row-even">
+                                  <td>Graphics</td>
+                                  <td class="mtstars">
+                                    <div id="gdsr_mur_stars_81_1_0" class="ratemulti gdsr-oxygen gdsr-size-20">
+                                      <div class="starsbar gdsr-size-20">
+                                        <div class="gdouter gdheight" style="width: 100px">
+                                          <div id="gdsr_mur_stars_rated_81_1_0" style="width: 80px;" class="gdinner gdheight"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="mtrow row-odd">
+                                  <td>Game Play</td>
+                                  <td class="mtstars">
+                                    <div id="gdsr_mur_stars_81_1_1" class="ratemulti gdsr-oxygen gdsr-size-20">
+                                      <div class="starsbar gdsr-size-20">
+                                        <div class="gdouter gdheight" style="width: 100px">
+                                          <div id="gdsr_mur_stars_rated_81_1_1" style="width: 80px;" class="gdinner gdheight"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="mtrow row-even">
+                                  <td>Game Depth</td>
+                                  <td class="mtstars">
+                                    <div id="gdsr_mur_stars_81_1_2" class="ratemulti gdsr-oxygen gdsr-size-20">
+                                      <div class="starsbar gdsr-size-20">
+                                        <div class="gdouter gdheight" style="width: 100px">
+                                          <div id="gdsr_mur_stars_rated_81_1_2" style="width: 60px;" class="gdinner gdheight"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="gdtblbottom">
+                                  <td colspan="2">
+                                    <div style="float:left">
+                                      <div class="voted inactive" id="gdsr_mur_text_81_1">
+                                        Rating: 3.7/<strong>5</strong> (1 vote cast)
+                                      </div>
+                                    </div>
+                                    <div style="float:right"></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="review-panel-right" style="width: 406px;">
+                        <h1 class="page-title">Tropico 5 &#8211; Design your tropical island!</h1>
+                        <ul id="review-tags-list">
+                          <li>
+                            <strong>Release Date:</strong> <a href="http://www.citybuilder.info/release_dates/2014/" rel="tag">2014</a>, <a href="http://www.citybuilder.info/release_dates/may/" rel="tag">May</a>
+                          </li>
+                          <li>
+                            <strong>Genre:</strong> <a href="http://www.citybuilder.info/genres/city-builder/" rel="tag">City Builder</a>, <a href="http://www.citybuilder.info/genres/simulation/" rel="tag">Simulation</a>, <a href="http://www.citybuilder.info/genres/strategy/" rel="tag">Strategy</a>
+                          </li>
+                          <li>
+                            <strong>Platform:</strong> <a href="http://www.citybuilder.info/platforms/pc/" rel="tag">PC</a>, <a href="http://www.citybuilder.info/platforms/playstation-4/" rel="tag">Playstation 4</a>, <a href="http://www.citybuilder.info/platforms/x-box-360/" rel="tag">X-Box 360</a>
+                          </li>
+                          <li>
+                            <strong>Studio:</strong> <a href="http://www.citybuilder.info/studios/haemimont-games/" rel="tag">Haemimont Games</a>, <a href="http://www.citybuilder.info/studios/kalypso-media-digital/" rel="tag">Kalypso Media Digital</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id="review-panels">
+                      <div class="review-panel" id="reviewtabReview">
+                        <div id="post-content">
+                          <div class='at-above-post addthis-toolbox' data-title='Tropico 5 &#8211; Design your tropical island!' data-url='http://www.citybuilder.info/review/tropico-5/'></div>
+                          <div class='at-above-post-recommended addthis-toolbox' data-title='Tropico 5 &#8211; Design your tropical island!' data-url='http://www.citybuilder.info/review/tropico-5/'></div>
+                          <p>
+                            This game is the 5th part of the series. In contrast to the first two parts of the series the parts 3 to 5 are published by <a href="http://www.kalypsomedia.com/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.kalypsomedia.com/', 'Kalypso Media Digital');" title="Kalypso Media Digital" target="_blank">Kalypso Media Digital</a>. So lets see what&#8217;s new. <strong>Tropico 5</strong> got developed by <a href="http://www.haemimontgames.com/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.haemimontgames.com/', 'Haemimont Games');" title="Haemimont Games" target="_blank">Haemimont Games</a> and is based on a new engine.
+                          </p>
+                          <h2>Graphics of Tropico 5</h2>
+                          <p>
+                            The graphic of the game is able to soak the player right into a caribbean feeling. When you&#8217;re looking for a photo realistic city building game <a href="http://www.amazon.com/gp/product/B00JMM1GP0/ref=nosim?tag=citybuilderinfo-20" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.amazon.com/gp/product/B00JMM1GP0/ref=nosim?tag=citybuilderinfo-20', 'Tropico 5');" title="Tropico 5" target="_blank">Tropico 5</a> might not be the right choice for you but when you are able to look past comic like graphic style you can spend hours just looking at your citizens roaming around your island.
+                          </p>
+                          <p>The graphics are perfect for the game setting.</p>
+                          <div id='gallery-1' class='gallery galleryid-81 gallery-columns-3 gallery-size-thumbnail'>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/001.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/001.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x001-150x150.jpg.pagespeed.ic.1KTZVR0Qf4.jpg" class="attachment-thumbnail" alt="Tropico 5 Graphics Detail Example" aria-describedby="gallery-1-48" pagespeed_url_hash="4252278093"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-1-48'>
+                                Cold War residential area with police station and the palace in the background.
+                              </dd>
+                            </div>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/002.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/002.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x002-150x150.jpg.pagespeed.ic.XiEx6fYlza.jpg" class="attachment-thumbnail" alt="Tropico 5 Graphics Details" aria-describedby="gallery-1-49" pagespeed_url_hash="1041832766"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-1-49'>
+                                Cold War view of a restaurant with a parking lot and a banana plantation in the background.
+                              </dd>
+                            </div>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/003.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/003.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x003-150x150.jpg.pagespeed.ic.POMi2uqBrA.jpg" class="attachment-thumbnail" alt="Tropico 5 Graphics Detail Example" aria-describedby="gallery-1-63" pagespeed_url_hash="2126354735"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-1-63'>
+                                Cold War a view of one of the main roads connecting the harbor with the residential area with the lighthouse in the background.
+                              </dd>
+                            </div>
+                            <br style="clear: both"/>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/004.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/004.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x004-150x150.jpg.pagespeed.ic.SY8R4CMX3Z.jpg" class="attachment-thumbnail" alt="Tropico 5 Graphics Detail Example" aria-describedby="gallery-1-64" pagespeed_url_hash="3210876704"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-1-64'>
+                                Cold War a nice view of the harbor. Also shows some closeup detail of the citizens.
+                              </dd>
+                            </div>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/005.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/005.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x005-150x150.jpg.pagespeed.ic.feHT_qn0IA.jpg" class="attachment-thumbnail" alt="Tropico 5 Graphics Example Zoom Out" aria-describedby="gallery-1-65" pagespeed_url_hash="431377"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-1-65'>
+                                Colonial Era view of the starting structure in a sandbox game.
+                              </dd>
+                            </div>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/010.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/010.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x010-150x150.jpg.pagespeed.ic.wteYORZW5w.jpg" class="attachment-thumbnail" alt="Tropico 5 Graphics Detail Example" aria-describedby="gallery-1-71" pagespeed_url_hash="3506213295"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-1-71'>
+                                Detail view of a citizen. The harbor in the back with a freighter that exports Tropican goods.
+                              </dd>
+                            </div>
+                            <br style="clear: both"/>
+                          </div>
+                          <h2>Game Play</h2>
+                          <p>The game play is clearly structured. Your goal is to rule your small island during 4 epochs.</p>
+                          <ul>
+                            <li>Colonial Era</li>
+                            <li>World Wars</li>
+                            <li>Cold War</li>
+                            <li>Modern</li>
+                          </ul>
+                          <p>
+                            The UI of <a href="http://www.amazon.com/gp/product/B00JMM1GP0/ref=nosim?tag=citybuilderinfo-20" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.amazon.com/gp/product/B00JMM1GP0/ref=nosim?tag=citybuilderinfo-20', 'Tropico 5');" title="Tropico 5" target="_blank">Tropico 5</a> very friendly. See for your self in the screenshots.
+                          </p>
+                          <p>Make sure to accept and fulfill quests while expanding your island. And always keep an eye on your balance. It&#8217;s a great example of an economics simulation. Expand your production and increase export. Attract new citizens, make and keep them happy.</p>
+                          <p>The game play is very good.</p>
+                          <div id='gallery-2' class='gallery galleryid-81 gallery-columns-3 gallery-size-thumbnail'>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/006.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/006.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x006-150x150.jpg.pagespeed.ic.QNEZfcJ0PQ.jpg" class="attachment-thumbnail" alt="Tropico 5 Build Menu" aria-describedby="gallery-2-66" pagespeed_url_hash="1084953346"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-2-66'>
+                                The Infrastructure tab in the build menu. From here you can start placing buildings.
+                              </dd>
+                            </div>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/007.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/007.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x007-150x150.jpg.pagespeed.ic.BLxxxxjgc1.jpg" class="attachment-thumbnail" alt="Tropico 5 Economy Report" aria-describedby="gallery-2-67" pagespeed_url_hash="2169475315"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-2-67'>
+                                The Economy Report allows you the see an overview over your income and spending.
+                              </dd>
+                            </div>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/008.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/008.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x008-150x150.jpg.pagespeed.ic.X9TiETk-CA.jpg" class="attachment-thumbnail" alt="Tropico 5 Dynasty Screen" aria-describedby="gallery-2-68" pagespeed_url_hash="3253997284"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-2-68'>
+                                The Dynasty Screen allows you to level up and customize your dynasty.
+                              </dd>
+                            </div>
+                            <br style="clear: both"/>
+                            <div class='gallery-item'>
+                              <dt class='gallery-icon landscape'>
+                                <a href="http://www.citybuilder.info/wp-content/uploads/2014/08/009.jpg" onclick="__gaTracker('send', 'event', 'outbound-article-int', 'http://www.citybuilder.info/wp-content/uploads/2014/08/009.jpg', '');">
+                                  <img width="150" height="150" src="http://www.citybuilder.info/wp-content/uploads/2014/08/150x150x009-150x150.jpg.pagespeed.ic.fiwWoqIZOZ.jpg" class="attachment-thumbnail" alt="Tropico 5 Research Screen" aria-describedby="gallery-2-69" pagespeed_url_hash="43551957"/>
+                                </a>
+                              </dt>
+                              <dd class='wp-caption-text gallery-caption' id='gallery-2-69'>
+                                The Research Screen is where you do your research. To generate research points you have to build at least one Library.
+                              </dd>
+                            </div>
+                            <br style='clear: both'/>
+                          </div>
+                          <h2>Game Depth</h2>
+                          <p>The 13 productions cycles do the game well. You could make your island a tourist paradise or industry hell. The edicts you can issue add additional depth to Tropico 5. Optimizing your dynasty to get the maximum bonus from each of your dynasty members is a good idea and adds in a positive way to the depth of the game. The research that can be done allows to build new buildings, issue additional edicts and new constitutional options, to be successful make sure you do your research.</p>
+                          <p>All in all the game depth is good for broader audience.</p>
+                          <div class='at-below-post addthis-toolbox' data-title='Tropico 5 &#8211; Design your tropical island!' data-url='http://www.citybuilder.info/review/tropico-5/'></div>
+                          <div class='at-below-post-recommended addthis-toolbox' data-title='Tropico 5 &#8211; Design your tropical island!' data-url='http://www.citybuilder.info/review/tropico-5/'></div>
+                          <div style="display: none">UA:F [1.9.22_1171]</div>
+                          <div class="ratingblock ">
+                            <div class="ratingheader "></div>
+                            <div class="ratingstars ">
+                              <div id="article_rater_81" class="ratepost gdsr-oxygen gdsr-size-24">
+                                <div class="starsbar gdsr-size-24">
+                                  <div class="gdouter gdheight">
+                                    <div id="gdr_vote_a81" style="width: 0px;" class="gdinner gdheight"></div>
+                                    <div id="gdr_stars_a81" class="gdsr_rating_as">
+                                      <a id="gdsrX81X5X1XaXarticle_rater_81Xarticle_loader_81X10X24" title="5 / 5" class="s5" rel="nofollow"></a>
+                                      <a id="gdsrX81X4X1XaXarticle_rater_81Xarticle_loader_81X10X24" title="4 / 5" class="s4" rel="nofollow"></a>
+                                      <a id="gdsrX81X3X1XaXarticle_rater_81Xarticle_loader_81X10X24" title="3 / 5" class="s3" rel="nofollow"></a>
+                                      <a id="gdsrX81X2X1XaXarticle_rater_81Xarticle_loader_81X10X24" title="2 / 5" class="s2" rel="nofollow"></a>
+                                      <a id="gdsrX81X1X1XaXarticle_rater_81Xarticle_loader_81X10X24" title="1 / 5" class="s1" rel="nofollow"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="article_loader_81" style="display: none; width: 120px " class="ratingloaderarticle">
+                                <div class="loader flower " style="height: 24px">
+                                  <div class="loaderinner" style="padding-top: 2px">please wait...</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="ratingtext ">
+                              <div id="gdr_text_a81">
+                                Rating: 0.0/<strong>5</strong> (0 votes cast)
+                              </div>
+                            </div>
+                          </div>
+                          <div style="display: none">UA:F [1.9.22_1171]</div>
+                          <div class="thumblock ">
+                            <div id="gdsr_thumb_81_a_up" class="gdt-size-20 gdthumb gdup">
+                              <a id="gdsrX81XupXaX25X20XY" class="gdt-starrating" rel="nofollow"></a>
+                            </div>
+                            <div id="gdsr_thumb_81_a_loader_up" style="display: none; width: 20px " class="ratingloader loadup">
+                              <div class="loader flower thumb" style="width: 20px; height: 20px;"></div>
+                            </div>
+                            <div id="gdsr_thumb_81_a_dw" class="gdt-size-20 gdthumb gddw">
+                              <a id="gdsrX81XdwXaX25X20XY" class="gdt-starrating" rel="nofollow"></a>
+                            </div>
+                            <div id="gdsr_thumb_81_a_loader_dw" style="display: none; width: 20px " class="ratingloader loaddw">
+                              <div class="loader flower thumb" style="width: 20px; height: 20px;"></div>
+                            </div>
+                            <div class="ratingtext ">
+                              <div id="gdsr_thumb_text_81_a" class="gdt-size-20 gdthumbtext">
+                                Rating: <strong>0</strong> (from 0 votes)
+                              </div>
+                            </div>
+                            <div class="raterclear"></div>
+                          </div>
+                          <script type="text/rocketscript">var addthis_for_wordpress='wpp-4.0';</script>
+                          <script data-rocketsrc="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54a1357e7842bda5" type="text/rocketscript"></script>
+                        </div>
+                        <div class="post-meta">
+                          August 31, 2014 - <a href="http://www.citybuilder.info/author/superreeen/" title="Posts by superreeen" rel="author">superreeen</a> - <a href="http://www.citybuilder.info/reviews/city-builder/" rel="tag">City Builder</a>, <a href="http://www.citybuilder.info/reviews/economic-simulation/" rel="tag">Economic Simulation</a> - <a href="http://www.citybuilder.info/review/tropico-5/#respond" class="comments-link" title="Comment on Tropico 5 &#8211; Design your tropical island!">No Comments</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="comments">
+                          <div id="commentform" re="">
+                            <div id="respond">
+                              <h3>Leave a Reply</h3>
+                              <div class="cancel-comment-reply">
+                                <a rel="nofollow" id="cancel-comment-reply-link" href="/review/tropico-5/#respond" style="display:none;">Cancel Reply</a>
+                              </div>
+                              <form action="http://www.citybuilder.info/wp-comments-post.php" method="post">
+                                <div class="comment-score">
+                                  <div class="comment-score-title">Rate This Item</div>
+                                  <div class="clear"></div>
+                                  <div class="comment-score-stars">
+                                    <div id="gdsr_mur_block_81_1" class="ratingmulti gdsr-rating-block">
+                                      <input class="gdsr-mur-cls-rt gdsr_int_multi_81_1" type="hidden" id="gdsr_mur_value" name="gdsr_mur_value" value="0X0X0"/>
+                                      <input type="hidden" name="gdsr_mur_set" value="1"/>
+                                      <table class="gdmultitable" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                          <tr class="mtrow row-even">
+                                            <td>Graphics</td>
+                                            <td class="mtstars">
+                                              <div id="gdsr_mur_stars_81_1_0" class="ratemulti gdsr-oxygen gdsr-size-20">
+                                                <div class="starsbar gdsr-size-20">
+                                                  <div class="gdouter gdheight" style="width: 100px">
+                                                    <div id="gdsr_mur_stars_rated_81_1_0" style="width: 0px;" class="gdinner gdheight"></div>
+                                                    <div id="gdsr_murvw_stars_current_81_1_0" style="width: 0px;" class="gdcurrent gdheight"></div>
+                                                    <div id="gdr_stars_mur_rating_81_1_0" class="gdsr_mur_static">
+                                                      <a id="gdsrX81X1X0X5X20X0" title="5 / 5" class="s5 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X0X4X20X0" title="4 / 5" class="s4 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X0X3X20X0" title="3 / 5" class="s3 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X0X2X20X0" title="2 / 5" class="s2 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X0X1X20X0" title="1 / 5" class="s1 " rel="nofollow"></a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr class="mtrow row-odd">
+                                            <td>Game Play</td>
+                                            <td class="mtstars">
+                                              <div id="gdsr_mur_stars_81_1_1" class="ratemulti gdsr-oxygen gdsr-size-20">
+                                                <div class="starsbar gdsr-size-20">
+                                                  <div class="gdouter gdheight" style="width: 100px">
+                                                    <div id="gdsr_mur_stars_rated_81_1_1" style="width: 0px;" class="gdinner gdheight"></div>
+                                                    <div id="gdsr_murvw_stars_current_81_1_1" style="width: 0px;" class="gdcurrent gdheight"></div>
+                                                    <div id="gdr_stars_mur_rating_81_1_1" class="gdsr_mur_static">
+                                                      <a id="gdsrX81X1X1X5X20X0" title="5 / 5" class="s5 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X1X4X20X0" title="4 / 5" class="s4 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X1X3X20X0" title="3 / 5" class="s3 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X1X2X20X0" title="2 / 5" class="s2 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X1X1X20X0" title="1 / 5" class="s1 " rel="nofollow"></a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr class="mtrow row-even">
+                                            <td>Game Depth</td>
+                                            <td class="mtstars">
+                                              <div id="gdsr_mur_stars_81_1_2" class="ratemulti gdsr-oxygen gdsr-size-20">
+                                                <div class="starsbar gdsr-size-20">
+                                                  <div class="gdouter gdheight" style="width: 100px">
+                                                    <div id="gdsr_mur_stars_rated_81_1_2" style="width: 0px;" class="gdinner gdheight"></div>
+                                                    <div id="gdsr_murvw_stars_current_81_1_2" style="width: 0px;" class="gdcurrent gdheight"></div>
+                                                    <div id="gdr_stars_mur_rating_81_1_2" class="gdsr_mur_static">
+                                                      <a id="gdsrX81X1X2X5X20X0" title="5 / 5" class="s5 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X2X4X20X0" title="4 / 5" class="s4 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X2X3X20X0" title="3 / 5" class="s3 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X2X2X20X0" title="2 / 5" class="s2 " rel="nofollow"></a>
+                                                      <a id="gdsrX81X1X2X1X20X0" title="1 / 5" class="s1 " rel="nofollow"></a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                                <p>
+                                  Logged in as <a href="http://www.citybuilder.info/wp-admin/profile.php">superreeen</a> <a href="http://www.citybuilder.info/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.citybuilder.info%2Freview%2Ftropico-5%2F&amp;_wpnonce=3c8a3e44d0">(Logout)</a>
+                                </p>
+                                <p>
+                                  <textarea name="a27b2-comment" id="comment" cols="5" rows="7" tabindex="4"></textarea>
+                                  <textarea name="comment" style="display:none" rows="1" cols="1"></textarea>
+                                </p>
+                                <input name="submit" type="submit" id="submit" tabindex="5" value="Submit"/>
+                                <input type='hidden' name='comment_post_ID' value='81' id='comment_post_ID'/>
+                                <input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+                                <input type="hidden" value="false" id="capcode" name="capcode">
+                                  <p>
+                                    <small>
+                                      Anti-spam: complete the task<a target='_blank' href='https://www.keycaptcha.com/wordpress-captcha/' style='margin-left:100px; font-size:8px;float:right;'>WordPress CAPTCHA</a>
+                                    </small>
+                                  </p>
+                                  <noscript>
+                                    <p>
+                                      <small style="color:red;">You should turn on JavaScript on your browser. After that please reload the page. Otherwise you won&#39;t be able to post any information on this site.</small>
+                                    </p>
+                                  </noscript>
+                                  <script type="text/rocketscript">var s_s_c_user_id='87224';var s_s_c_session_id='54a2bc89c0930-2.5.1.014';var s_s_c_captcha_field_id='capcode';var s_s_c_submit_button_id='submit,wp-submit';var s_s_c_web_server_sign='e61f6d12179db9440c06d09e417ca919';var s_s_c_web_server_sign2='c127ba026a4c1c290a09deb6121b0a57';</script>
+                                  <script data-rocketsrc="http://backs.keycaptcha.com/swfs/cap.js" type="text/rocketscript"></script>
+                                  <div id="keycaptcha-submit-button-area" style="margin-top:0px;">
+                                    <br/>
+                                  </div>
+                                  <script type="text/rocketscript">
+                                    var kc_subs=document.getElementsByClassName("form-submit");var fmoved=false;for(var i in kc_subs){var sub=kc_subs[i];if(sub.parentNode!=undefined){sub.parentNode.removeChild(kc_subs[i]);document.getElementById("keycaptcha-submit-button-area").appendChild(sub);fmoved=true;}}
+                                    if(!fmoved){var kc_sub=document.getElementById("submit");if(kc_sub!=undefined){kc_sub.parentNode.removeChild(kc_sub);document.getElementById("keycaptcha-submit-button-area").appendChild(kc_sub);kc_sub.tabIndex=6;}}
+                                  </script>
+                                  <input type="hidden" id="_wp_unfiltered_html_comment_disabled" name="_wp_unfiltered_html_comment_disabled" value="3bf7ea0e44"/>
+                                  <script type="text/rocketscript">(function(){if(window===window.parent){document.getElementById('_wp_unfiltered_html_comment_disabled').name='_wp_unfiltered_html_comment';}})();</script>
+                                </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="sidebar">
+                    <div id="bp_core_login_widget-2" class="widget widget_bp_core_login_widget buddypress widget">
+                      <h2 class="widgettitle">Log In</h2>
+                      <div class="bp-login-widget-user-avatar">
+                        <a href="http://www.citybuilder.info/members/superreeen/">
+                          <img src="http://gravatar.com/avatar/318c8dfa38db1d06c8763bd3a4a01cf7?d=mm&amp;s=50&amp;r=G" class="avatar user-1-avatar avatar-50 photo" width="50" height="50" alt="Profile picture of superreeen" pagespeed_url_hash="2967959692"/>
+                        </a>
+                      </div>
+                      <div class="bp-login-widget-user-links">
+                        <div class="bp-login-widget-user-link">
+                          <a href="http://www.citybuilder.info/members/superreeen/" title="superreeen">superreeen</a>
+                        </div>
+                        <div class="bp-login-widget-user-logout">
+                          <a class="logout" href="http://www.citybuilder.info/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fwww.citybuilder.info%2Freview%2Ftropico-5%2F&amp;_wpnonce=3c8a3e44d0">Log Out</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="bp_core_whos_online_widget-3" class="widget widget_bp_core_whos_online_widget buddypress widget">
+                      <h2 class="widgettitle">Who&#8217;s Online</h2>
+                      <div class="avatar-block">
+                        <div class="item-avatar">
+                          <a href="http://www.citybuilder.info/members/superreeen/" title="superreeen">
+                            <img src="http://gravatar.com/avatar/318c8dfa38db1d06c8763bd3a4a01cf7?d=mm&amp;s=80&amp;r=G" class="avatar user-1-avatar avatar- photo" width="80" height="80" alt="Profile picture of superreeen" pagespeed_url_hash="2742311653"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear"></div>
+                <div id="footer">
+                  <div id="footer-content">
+                    <ul id="menu-footer" class="menu">
+                      <li id="menu-item-28" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-28">
+                        <a href="http://www.citybuilder.info/" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/', 'Home');">Home</a>
+                      </li>
+                      <li id="menu-item-29" class="reviews menu-item menu-item-type-custom menu-item-object-custom menu-item-29">
+                        <a href="http://www.citybuilder.info/reviews" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/reviews', 'Reviews');">Reviews</a>
+                      </li>
+                      <li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-75">
+                        <a href="http://www.citybuilder.info/forums/forum/citybuilder-info-forum/" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/forums/forum/citybuilder-info-forum/', 'Forum');">Forum</a>
+                      </li>
+                      <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
+                        <a href="http://www.citybuilder.info/blog-page/" onclick="__gaTracker('send', 'event', 'outbound-widget-int', 'http://www.citybuilder.info/blog-page/', 'Blog');">Blog</a>
+                      </li>
+                    </ul>
+                    <div id="copyright">
+                      <script type="text/rocketscript">var vglnk={key:'84536b096dac06d078b8e5e3be8b43be'};(function(d,t){var s=d.createElement(t);s.type='text/javascript';s.async=true;s.src='//cdn.viglink.com/api/vglnk.js';var r=d.getElementsByTagName(t)[0];r.parentNode.insertBefore(s,r);}(document,'script'));</script>
+                    </div>
+                  </div>
+                  <a id="top-arrow" class="back-to-top"></a>
+                </div>
+              </div>
+              <script data-rocketsrc="http://www.citybuilder.info/wp-includes,_js,_admin-bar.min.js+wp-content,_plugins,_bbpress,_templates,_default,_js,_editor.js,Mjm.beB4HpmZBb.js.pagespeed.jc.rXKD6F9SU6.js" type="text/rocketscript"></script>
+              <script type="text/rocketscript">eval(mod_pagespeed_ZNfi5GjnHy);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_i5SMqytzAY);</script>
+              <script type="text/rocketscript">var BP_Suggestions={"friends":[]};</script>
+              <script data-rocketsrc="http://www.citybuilder.info/wp-content,_plugins,_buddypress,_bp-activity,_js,_mentions.min.js,Mjm.VdTul3_INU.js+wp-includes,_js,_comment-reply.min.js+wp-content,_themes,_reviewit,_lib,_scripts,_jquery.nivo.slider.js,Mjm.gLzbo7iYjm.js+wp-content,_themes,_reviewit,_lib,_scripts,_prettyPhoto,_js,_jquery.prettyPhoto.js,Mjm.C-HWdldEkz.js+wp-content,_themes,_reviewit,_lib,_scripts,_jquery.jqtransform.js,Mjm.UaKbBRBhKl.js+wp-content,_themes,_reviewit,_lib,_scripts,_jquery.cookies.js,Mjm.Qq8gohmZoz.js+wp-includes,_js,_jquery,_ui,_core.min.js,Mjm.G5FbKsFtv1.js+wp-includes,_js,_jquery,_ui,_widget.min.js,Mjm.rVbriq03X2.js+wp-includes,_js,_jquery,_ui,_tabs.min.js,Mjm.fSGlq5Y-cm.js.pagespeed.jc.MO3CCTSv2k.js" type="text/rocketscript"></script>
+              <script type="text/rocketscript">eval(mod_pagespeed_TXtPP2kHk0);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_aR3dA613tt);</script>
+              <script data-rocketsrc='https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js' type="text/rocketscript"></script>
+              <script type="text/rocketscript">eval(mod_pagespeed_cL8kaEmHAG);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_27Yd2VlgxX);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_bU0XSsYN4$);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_FCvcaE7v37);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_tQ2KMZuiNQ);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_1WclpcY0Em);</script>
+              <script type="text/rocketscript">eval(mod_pagespeed_EUkFH29PQd);</script>
+              <script type="text/rocketscript">
+                jQuery(document).ready(function(){"use strict";jQuery("div.gallery-item .gallery-icon a").attr("rel","prettyPhoto[gallery]");jQuery("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_square',deeplinking:false,social_tools:''});jQuery("#dropdown-filter").show();jQuery(".order-by-form").jqTransform();jQuery(".order-form").jqTransform();jQuery(".order-by-form .jqTransformSelectWrapper ul li a").click(function(){var index=jQuery(this).attr('index');var value=jQuery('.order-by-form select.jqTransformHidden option:eq('+index+')').attr('value');window.location.href=value;});jQuery(".order-form .jqTransformSelectWrapper ul li a").click(function(){var index=jQuery(this).attr('index');var value=jQuery('.order-form select.jqTransformHidden option:eq('+index+')').attr('value');window.location.href=value;});jQuery(".back-to-top").click(function(){jQuery("html, body").animate({scrollTop:0},'slow');});jQuery(".sc-tabs").tabs({fx:{height:'toggle',opacity:'toggle',duration:'normal'}});jQuery("li.no-tab-link a").unbind('click').each(function(){jQuery.data('href.tabs','');});jQuery('.layout-3 #review-links').appendTo('#review-container');(function($){$.fn.preventEmptySubmit=function(options){var settings={inputselector:"#searchbar",msg:emptySearchText};if(options){$.extend(settings,options);}
+                this.submit(function(){var s=$(this).find(settings.inputselector);if(!s.val()){alert(settings.msg);s.focus();return false;}
+                return true;});return this;};})(jQuery);jQuery('#searchform').preventEmptySubmit();});
+              </script>
+              <script type="text/rocketscript">(function(){var request,b=document.body,c='className',cs='customize-support',rcs=new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');request=true;b[c]=b[c].replace(rcs,' ');b[c]+=(window.postMessage&&request?' ':' no-')+cs;}());</script>
+              <div id="wpadminbar" class="nojq nojs" role="navigation">
+                <a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+                <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+                  <ul id="wp-admin-bar-root-default" class="ab-top-menu">
+                    <li id="wp-admin-bar-wp-logo" class="menupop">
+                      <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/wp-admin/about.php" title="About WordPress">
+                        <span class="ab-icon"></span>
+                      </a>
+                      <div class="ab-sub-wrapper">
+                        <ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+                          <li id="wp-admin-bar-about">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/about.php">About WordPress</a>
+                          </li>
+                        </ul>
+                        <ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+                          <li id="wp-admin-bar-wporg">
+                            <a class="ab-item" href="https://wordpress.org/">WordPress.org</a>
+                          </li>
+                          <li id="wp-admin-bar-documentation">
+                            <a class="ab-item" href="http://codex.wordpress.org/">Documentation</a>
+                          </li>
+                          <li id="wp-admin-bar-support-forums">
+                            <a class="ab-item" href="https://wordpress.org/support/">Support Forums</a>
+                          </li>
+                          <li id="wp-admin-bar-feedback">
+                            <a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li id="wp-admin-bar-site-name" class="menupop">
+                      <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/wp-admin/">citybuilder.info</a>
+                      <div class="ab-sub-wrapper">
+                        <ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+                          <li id="wp-admin-bar-dashboard">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/">Dashboard</a>
+                          </li>
+                        </ul>
+                        <ul id="wp-admin-bar-appearance" class="ab-submenu">
+                          <li id="wp-admin-bar-themes">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/themes.php">Themes</a>
+                          </li>
+                          <li id="wp-admin-bar-customize" class="hide-if-no-customize">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/customize.php?url=http%3A%2F%2Fwww.citybuilder.info%2Freview%2Ftropico-5%2F">Customize</a>
+                          </li>
+                          <li id="wp-admin-bar-widgets">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/widgets.php">Widgets</a>
+                          </li>
+                          <li id="wp-admin-bar-menus">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/nav-menus.php">Menus</a>
+                          </li>
+                          <li id="wp-admin-bar-background" class="hide-if-customize">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/themes.php?page=custom-background">Background</a>
+                          </li>
+                          <li id="wp-admin-bar-customize-background" class="hide-if-no-customize">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/customize.php?url=http%3A%2F%2Fwww.citybuilder.info%2Freview%2Ftropico-5%2F&#038;autofocus%5Bcontrol%5D=background_image">Background</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li id="wp-admin-bar-comments">
+                      <a class="ab-item" href="http://www.citybuilder.info/wp-admin/edit-comments.php" title="0 comments awaiting moderation">
+                        <span class="ab-icon"></span>
+                        <span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span>
+                      </a>
+                    </li>
+                    <li id="wp-admin-bar-new-content" class="menupop">
+                      <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/wp-admin/post-new.php" title="Add New">
+                        <span class="ab-icon"></span>
+                        <span class="ab-label">New</span>
+                      </a>
+                      <div class="ab-sub-wrapper">
+                        <ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+                          <li id="wp-admin-bar-new-post">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php">Post</a>
+                          </li>
+                          <li id="wp-admin-bar-new-media">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/media-new.php">Media</a>
+                          </li>
+                          <li id="wp-admin-bar-new-page">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=page">Page</a>
+                          </li>
+                          <li id="wp-admin-bar-new-forum">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=forum">Forum</a>
+                          </li>
+                          <li id="wp-admin-bar-new-topic">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=topic">Topic</a>
+                          </li>
+                          <li id="wp-admin-bar-new-reply">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=reply">Reply</a>
+                          </li>
+                          <li id="wp-admin-bar-new-slide">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=slide">Slide</a>
+                          </li>
+                          <li id="wp-admin-bar-new-review">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=review">Review</a>
+                          </li>
+                          <li id="wp-admin-bar-new-amazon_auto_links">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post-new.php?post_type=amazon_auto_links">Amazon Auto Links Unit</a>
+                          </li>
+                          <li id="wp-admin-bar-new-user">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-admin/user-new.php">User</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li id="wp-admin-bar-edit">
+                      <a class="ab-item" href="http://www.citybuilder.info/wp-admin/post.php?post=81&#038;action=edit">Edit Review</a>
+                    </li>
+                  </ul>
+                  <ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+                    <li id="wp-admin-bar-search" class="admin-bar-search">
+                      <div class="ab-item ab-empty-item" tabindex="-1">
+                        <form action="http://www.citybuilder.info/" id="adminbarsearch">
+                          <input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150"/>
+                          <input type="submit" class="adminbar-button" value="Search"/>
+                        </form>
+                      </div>
+                    </li>
+                    <li id="wp-admin-bar-my-account" class="menupop with-avatar">
+                      <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/profile/edit/" title="My Account">
+                        Howdy, superreeen<img src="http://gravatar.com/avatar/318c8dfa38db1d06c8763bd3a4a01cf7?d=mm&amp;s=26&amp;r=G" class="avatar user-1-avatar avatar-26 photo" width="26" height="26" alt="Profile photo of superreeen" pagespeed_url_hash="665639961"/>
+                      </a>
+                      <div class="ab-sub-wrapper">
+                        <ul id="wp-admin-bar-user-actions" class="ab-submenu">
+                          <li id="wp-admin-bar-user-info">
+                            <a class="ab-item" tabindex="-1" href="http://www.citybuilder.info/members/superreeen/profile/edit/">
+                              <img src="http://gravatar.com/avatar/318c8dfa38db1d06c8763bd3a4a01cf7?d=mm&amp;s=64&amp;r=G" class="avatar user-1-avatar avatar-64 photo" width="64" height="64" alt="Profile photo of superreeen" pagespeed_url_hash="4070743363"/>
+                              <span class='display-name'>superreeen</span>
+                            </a>
+                          </li>
+                          <li id="wp-admin-bar-edit-profile">
+                            <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/profile/edit/">Edit My Profile</a>
+                          </li>
+                          <li id="wp-admin-bar-logout">
+                            <a class="ab-item" href="http://www.citybuilder.info/wp-login.php?action=logout&#038;_wpnonce=3c8a3e44d0&#038;redirect_to=http%3A%2F%2Fwww.citybuilder.info%2Freview%2Ftropico-5%2F%3Floggedout%3Dtrue">Log Out</a>
+                          </li>
+                        </ul>
+                        <ul id="wp-admin-bar-my-account-buddypress" class="ab-sub-secondary ab-submenu">
+                          <li id="wp-admin-bar-my-account-activity" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/activity/">Activity</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-activity-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-activity-personal">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/activity/">Personal</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-activity-mentions">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/activity/mentions/">Mentions</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-activity-favorites">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/activity/favorites/">Favorites</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-activity-friends">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/activity/friends/">Friends</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-activity-groups">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/activity/groups/">Groups</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-xprofile" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/profile/">Profile</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-xprofile-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-xprofile-public">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/profile/public/">View</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-xprofile-edit">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/profile/edit/">Edit</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-xprofile-change-avatar">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/profile/change-avatar/">Change Profile Photo</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-notifications" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/notifications/">Notifications</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-notifications-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-notifications-unread">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/notifications/">Unread</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-notifications-read">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/notifications/read/">Read</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-messages" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/messages/">Messages</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-messages-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-messages-inbox">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/messages/inbox/">Inbox</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-messages-sentbox">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/messages/sentbox/">Sent</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-messages-compose">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/messages/compose/">Compose</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-messages-notices">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/messages/notices/">All Member Notices</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-friends" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/friends/">Friends</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-friends-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-friends-friendships">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/friends/">Friendships</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-friends-requests">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/friends/requests/">No Pending Requests</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-groups" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/groups/">Groups</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-groups-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-groups-memberships">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/groups/">Memberships</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-groups-invites">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/groups/invites/">No Pending Invites</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-groups-create">
+                                  <a class="ab-item" href="http://www.citybuilder.info/groups/create/">Create a Group</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-forums" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/forums/">Forums</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-forums-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-forums-topics">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/forums/topics/">Topics Started</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-forums-replies">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/forums/replies/">Replies Created</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-forums-favorites">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/forums/favorites/">Favorite Topics</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-forums-subscriptions">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/forums/subscriptions/">Subscribed Topics</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li id="wp-admin-bar-my-account-settings" class="menupop">
+                            <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/settings/">Settings</a>
+                            <div class="ab-sub-wrapper">
+                              <ul id="wp-admin-bar-my-account-settings-default" class="ab-submenu">
+                                <li id="wp-admin-bar-my-account-settings-general">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/settings/general/">General</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-settings-notifications">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/settings/notifications/">Email</a>
+                                </li>
+                                <li id="wp-admin-bar-my-account-settings-profile">
+                                  <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/settings/profile/">Profile</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li id="wp-admin-bar-bp-notifications" class="menupop">
+                      <a class="ab-item" aria-haspopup="true" href="http://www.citybuilder.info/members/superreeen/notifications/">
+                        <span id="ab-pending-notifications" class="count no-alert">0</span>
+                      </a>
+                      <div class="ab-sub-wrapper">
+                        <ul id="wp-admin-bar-bp-notifications-default" class="ab-submenu">
+                          <li id="wp-admin-bar-no-notifications">
+                            <a class="ab-item" href="http://www.citybuilder.info/members/superreeen/notifications/">No new notifications</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <a class="screen-reader-shortcut" href="http://www.citybuilder.info/wp-login.php?action=logout&#038;_wpnonce=3c8a3e44d0&#038;redirect_to=http%3A%2F%2Fwww.citybuilder.info%2Freview%2Ftropico-5%2F%3Floggedout%3Dtrue">Log Out</a>
+              </div>
+              <div id="sitewide-notice" class="admin-bar-on"></div>
+              <script pagespeed_no_defer="" type="text/rocketscript">
+                (function(){var e=encodeURIComponent,f=window,h=document,m="width",n="documentElement",p="height",q="length",r="prototype",s="body",t="&",u="&ci=",w="&n=",x="&rd=",y=",",z="?",A="Content-Type",B="Microsoft.XMLHTTP",C="Msxml2.XMLHTTP",D="POST",E="application/x-www-form-urlencoded",F="img",G="input",H="load",I="oh=",J="on",K="pagespeed_url_hash",L="url=",M=function(a,c,d){if(a.addEventListener)a.addEventListener(c,d,!1);else if(a.attachEvent)a.attachEvent(J+c,d);else{var b=a[J+c];a[J+c]=function(){d.call(this);b&&b.call(this)}}};f.pagespeed=f.pagespeed||{};var N=f.pagespeed,O=function(a,c,d,b,g){this.d=a;this.f=c;this.g=d;this.a=g;this.c={height:f.innerHeight||h[n].clientHeight||h[s].clientHeight,width:f.innerWidth||h[n].clientWidth||h[s].clientWidth};this.e=b;this.b={}};O[r].j=function(a){a=a.getBoundingClientRect();return{top:a.top+(void 0!==f.pageYOffset?f.pageYOffset:(h[n]||h[s].parentNode||h[s]).scrollTop),left:a.left+(void 0!==f.pageXOffset?f.pageXOffset:(h[n]||h[s].parentNode||h[s]).scrollLeft)}};O[r].i=function(a){if(0>=a.offsetWidth&&0>=a.offsetHeight)return!1;a=this.j(a);var c=a.top.toString()+y+a.left.toString();if(this.b.hasOwnProperty(c))return!1;this.b[c]=!0;return a.top<=this.c[p]&&a.left<=this.c[m]};O[r].l=function(){for(var a=[F,G],c=[],d={},b=0;b<a[q=""];++b="")for=""(var="" g="h.getElementsByTagName"(a=""[b=""]),k="0;k"<g[q=""];++k=""){var="" v="g"[k=""].getAttribute=""(K="");v=""&&g[k].getBoundingClientRect&&this.i(g[k])&&!(v in d)&&(c.push(v),d[v]=!0)}b=!1;a=I+this.g;this.a&&(a+=w+this.a);if(0!=c[q]){a+=u+e(c[0]);for(b=1;b<c[q=""];++b=""){d="y"+e=""(c=""[b=""]);if=""(131072=""<a[q=""]+d=""[q=""])break;a=""+=d}b=!"0}this.e"&&(d=x+e(JSON.stringify(this.h())),131072>=a[q]+d[q]&&(a+=d),b=!0);N.criticalImagesBeaconData=a;if(b){var c=this.d,b=this.f,l;if(f.XMLHttpRequest)l=new XMLHttpRequest;else if(f.ActiveXObject)try{l=new ActiveXObject(C)}catch(P){try{l=new ActiveXObject(B)}catch(Q){}}l&&(l.open(D,c+(-1==c.indexOf(z)?z:t)+L+e(b)),l.setRequestHeader(A,E),l.send(a))}};O[r].h=function(){for(var a={},c=h.getElementsByTagName(F),d=0;d<c[q=""];++d=""){var="" b="c"[d=""],g="b.getAttribute"(K="");if=""("undefined"==typeof="" b.naturalWidth=""||"undefined"==typeof="" b.naturalHeight=""||"undefined"==typeof="" g="")break;if=""("undefined"==typeof="" a=""[b.src=""]&&0<b[m=""]&&0<b[p=""]&&0<b.naturalWidth&&0<b.naturalHeight||"undefined"!=typeof="" a=""[b.src=""]&&b[m]>=a[b.src].n&&b[p]>=a[b.src].m)a[g]={renderedWidth:b[m],renderedHeight:b[p],originalWidth:b.naturalWidth,originalHeight:b.naturalHeight}}return a};N.k=function(a,c,d,b,g){var k=new O(a,c,d,b,g);M(f,H,function(){f.setTimeout(function(){k.l()},0)})};N.criticalImagesBeaconInit=N.k;})();pagespeed.criticalImagesBeaconInit('/ngx_pagespeed_beacon','http://www.citybuilder.info/review/tropico-5/','Pg1ezNtcVY',false,'dIYlIIaHqsQ');
+              </script>
+            </body>
+            </html>]]>
+    </Text>
+    <WordCount>3728</WordCount>
+    <WordCloudWord>tropico</WordCloudWord>
+    <WordCloudCount>10</WordCloudCount>
+  </AnalyzerTestData>
+  <AnalyzerTestData>
+    <Text>
+      <![CDATA[Auf einer italienischen Fähre vor der Küste Griechenlands ist am Sonntagmorgen ein Feuer ausgebrochen. Das Schiff mit 466 Menschen an Bord wurde unter dramatischen Umständen evakuiert, wie die griechischen Behörden mitteilten. Die Rettung wurde durch starken Wind (bis Stärke 8) sowie hohe Wellen erschwert. Laut Passagierliste sind sechs Personen aus Österreich auf dem Schiff. Das Außenministerium steht in Kontakt mit der betroffenen Reederei sowie den griechischen und italienischen Behörden. Ein Passagier hat sich bereits bei seinem Bruder in Tirol gemeldet.]]>
+    </Text>
+    <WordCount>80</WordCount>
+    <WordCloudWord>italienischen</WordCloudWord>
+    <WordCloudCount>2</WordCloudCount>
+  </AnalyzerTestData>
+</TestData>
